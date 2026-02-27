@@ -1,7 +1,7 @@
-saldo = float(input("Digite su saldo: "))
 opcion = ""
 while opcion != "3":
     try: 
+        saldo = float(input("Digite su saldo: "))
         opcion = input("Que desea hacer 1=Retirar - 2=Depositar - 3=Salir ")
         if opcion == "1":
             ret = float(input("¿Cuanto desea retirar?: "))
